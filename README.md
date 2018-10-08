@@ -15,7 +15,8 @@ Build a JDK 1.8 image
     ps: because file size of jdk install file is more than 25MB, it can not be uploaded to github. It is need you to upload jdk         install file to folder Docker-JDK8 before run docker build command.
     
 3. docker run command to make the new created image to run as a container
-     docker run -it jdk-8:20181008 bash
+
+    docker run -it jdk-8:20181008 bash
 
 4. verify if JDK 1.8 is installed
 
