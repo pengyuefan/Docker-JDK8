@@ -1,9 +1,9 @@
 # Base image
 FROM ubuntu:latest
 
-# JDK 1.8, ADD ÃüÁî¿ÉÒÔÖ±½Ó½âÑ¹Ëõ .tar.gz ÎÄ¼ş£¬²»ÔÙĞèÒª tar ÃüÁî½âÑ¹Ëõ
-ADD jdk-8u144-linux-x64.tar.gz /usr/local/
+# JDK 1.8, ADD å‘½ä»¤å¯ä»¥ç›´æ¥è§£å‹ç¼© .tar.gz æ–‡ä»¶ï¼Œä¸å†éœ€è¦ tar å‘½ä»¤è§£å‹ç¼©
+ADD jdk-8u181-linux-x64.tar.gz /usr/local/
 
-ENV JAVA_HOME /usr/local/jdk1.8.0_144
+ENV JAVA_HOME /usr/local/jdk1.8.0_181
 ENV CLASSPATH $JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 ENV PATH $PATH:$JAVA_HOME/bin
